@@ -5,13 +5,19 @@ const icons ={
 
     sunny: "day-sunny",
     fog: "day-fog",    
-}
+    cloud: "cloud",
+    cloudy: "cloudy",
+    rain: "rain",
+    snow: "snow",
+    windy: "windy",
+};
+
 const getWeatherIcon = WeatherState => {
     const icon = icons[WeatherState];
     if (icon) 
         return <WeatherIcons name={icon} size="2x" />;
     else
-        return <WeatherIcons name={"day-sunny"} size="2x" />;
+        return <WeatherIcons name={"rain"} size="2x" />;
 
 }
 
