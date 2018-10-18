@@ -17,7 +17,11 @@ const getWeatherIcon = WeatherState => {
     if (icon) 
         return <WeatherIcons name={icon} size="2x" />;
     else
+<<<<<<< HEAD
         return <WeatherIcons name={"cloudy"} size="2x" />;
+=======
+        return <WeatherIcons name={"rain"} size="2x" />;
+>>>>>>> 9c429cdb62fba486b384521c08006c7ebfd0f01f
 
 }
 
